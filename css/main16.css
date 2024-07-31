@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+a:hover {
+    color: rgb(231, 30, 30);
+}
+
+p  {
+    color: rgb(231, 30, 30);
+}
+
+d  {
+    color: rgba(30, 30, 231, 0.811);
+}
+
+r {
+    color: rgba(6, 130, 27, 0.792);
+}
+
+table {
+    /* 罫線を表示するプロパティ */
+    /* border: 1px solid red; */
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+    border-radius: 8px;
+}
+
+th {
+    border: 2px ridge rgb(9, 192, 248);
+}
+
+td {
+    border: 1px groove rgb(11, 11, 11);
+
+    /* 角を丸めるプロパティ */
+    
+}
+
+button {
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid rgb(226, 29, 206);
+    border-radius: 4px;
+    background: linear-gradient(800deg, #dff118, #f8f8f5);
+}
+.container {
+    display: grid;
+    padding: 0 8px;
+    background: #afa;
+    grid-area: main-A;
+}
+
+main {
+    display: grid;
+    padding: 0 8px;
+    background: rgb(246, 183, 183);
+    grid-area: main-A;
+}
+aside {
+    padding: 0 8px;
+    background: rgb(189, 189, 242);
+    grid-area: aside-A;
+}
+
+footer {
+    background: #c5ebc8;
+    grid-area: footer-A;
+}
+h3 {
+    border: 2px solid rgb(0, 0, 0);
+}
