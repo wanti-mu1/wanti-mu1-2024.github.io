@@ -4,6 +4,10 @@ a:hover {
     color: rgb(231, 30, 30);
 }
 
+h2 {
+    font-family: serif;
+}
+
 p  {
     color: rgb(231, 30, 30);
 }
@@ -70,3 +74,4 @@ footer {
 h3 {
     border: 2px solid rgb(0, 0, 0);
 }
+
